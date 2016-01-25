@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: unicorn_with_nginx_demo_production
-  username: unicorn_with_nginx_demo
-  password: <%= ENV['UNICORN_WITH_NGINX_DEMO_DATABASE_PASSWORD'] %>
+  database: unicorn_demo
+  username: root
+  password:
